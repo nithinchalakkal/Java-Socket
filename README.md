@@ -12,10 +12,11 @@ Following will the modified content of AndroidManifest.xml file. Here we have ad
 This file can include each of the fundamental life cycle methods. We have added startService() and stopService() methods to start and stop the service.
  
  
+# Method to start the service
  
- # Method to start the service
      startService(new Intent(getBaseContext(), MyService.class));
 
 
-  #  Method to stop the service
+#  Method to stop the service
+  
       stopService(new Intent(getBaseContext(), MyService.class));
